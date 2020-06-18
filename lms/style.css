@@ -1,0 +1,495 @@
+body{
+	background: #cce6ff;
+	margin: 0;
+	font-family: "Segoe UI",Optima,Helvetica,Arial,sans-serif;
+}
+.table-pad{
+	margin-left: 5%;
+}
+/* ========================================================================================================================== */
+/*            Header                 																			   			  */
+/* ========================================================================================================================== */
+#header{
+	width: 100%;
+	height: 80px;
+	padding: 5% 0 1px 0;
+	background-color: #194f71;
+}
+/* =============================== */
+/*         Navigation Bar          */
+/* =============================== */
+#logo{
+	margin: -10px 0 0 -40%;
+	float: left;
+}
+#navbar-container {
+	width: 100%;
+	height: 60px;
+	background-color: #006080; /*#222222;*/
+	
+}
+#navbar {
+	margin: 0 0 0 30%;
+	padding-top: 20px;
+}
+#navbar li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+#navbar li a{
+	display: block;
+	color: #fff;
+	font-family: Arial;
+	font-size: 16px;
+	text-decoration: none;
+}
+#navbar li a:hover {
+	transform: scale(1.1);
+}
+
+#navbar li a form{
+   float: left;
+}
+#navbar li a input{
+   float: left;
+}
+#navbar li a button{
+   float: left;
+}
+
+/* ========================================================================================================================== */
+/*            Body                 																				   			  */
+/* ========================================================================================================================== */
+
+#main{
+	float: center;
+	width:100%;
+}
+
+#main-content {
+	padding: 50px 10% 50px 5%;
+	margin: 0 5% 0 5%;
+	text-align: left;
+	width: auto;
+	background: white;
+	min-height: 300px;
+	margin-bottom: -7%;
+}
+
+#menu{
+	height: 800px;
+	margin-left: 5%;
+	margin-bottom: 10%;
+}
+#category{
+	width: 250px;
+	height: 600px;
+	float: left;
+	text-align: center;
+	margin: 0 20px 0 20px;
+	
+}
+#menutile {
+	background-color: #194f71;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+
+	width:150px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+	text-align: center;
+}
+
+#menutile:hover{
+	transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+
+}
+/* =============================== */
+/*     Contact			           */
+/* =============================== */
+.profile-pic {
+	width:150px;
+    height:150px;
+    border-radius:50%;
+}
+#contact_heading{ padding-left: 25%; }
+#contact_row tr th {
+	font-size: 20px;
+	padding-right: 40px;
+}
+#contact_row{margin: 10% 0 0 -10%;}
+
+/* =============================== */
+/*            Footer               */
+/* =============================== */
+#footer{
+	padding: 2% 0 5% 0;
+	text-align: center;
+	background: grey;
+	bottom: 0;
+}
+.social-bar:link{
+	float: left;
+	margin-left: 30px;
+}
+.social-bar:hover{
+	transform: scale(1.25);
+}
+.social-link{
+	width: 30px;
+	height: 30px;
+}
+
+/* ============================================================================================================================ */
+/*      				      Others   	 	    		         															    */
+/* ============================================================================================================================ */
+
+
+/* =============================== */
+/*     Form Login 		           */
+/* =============================== */
+#frm{ /*login form */
+
+	border: solid grey 1px;
+	width: 20%;
+	border-radius: 5px;
+	margin: 40px auto;
+	background: white;
+	padding: 50px;
+}
+#submit{ /*submit buttom */
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 69%;
+}
+
+
+/* ========================================================================================================================== */
+/*            Table                 																			   			  */
+/* ========================================================================================================================== */
+#padding{
+	margin-left: 5%;
+}
+#table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid grey;
+    /*margin: 2% 0 2% 5%;*/
+
+}
+#table td, #table th {
+    padding: 8px;
+    font-size:12px;
+}
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #194f71;
+    color: white;
+}
+/*#table tr:nth-child(even){background-color: #f2f2f2;}*/
+
+.evenRow {
+background-color: #E2EDF9;
+font-size:12px;
+}
+.oddRow {
+background-color: #f2f2f2;
+font-size:12px;
+}
+.evenRow:hover, .oddRow:hover  {
+background-color: grey;
+}
+
+.lastrow {
+	background-color: #194f71;
+	font-size:12px;
+	color: white;
+	font-weight:bold;
+}
+.btnSubmit {
+background-color:#fd9512; /* #fd9512;*/
+padding:5px;
+border-color:#FF6600;
+border-radius:4px;
+color:white;
+}
+
+/* ========================================================================================================================== */
+/*            Cloud Animation                 																	   			  */
+/* ========================================================================================================================== */
+
+#cloud-content {
+	position: absolute; 
+	margin: -30% 20% 0 20%;
+	/*opacity: 0.6;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 5% 5% 5% 5%;*/
+}
+
+#clouds{
+	padding: 150px 0;
+	background: #c9dbe9;
+	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	position: relative;
+}
+
+/*Time to finalise the cloud shape*/
+.cloud {
+	width: 200px; height: 60px;
+	background: #fff;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #fff;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
+}
+
+/*Time to animate*/
+.x1 {
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+.x2 {
+	left: 200px;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; /*opacity proportional to the size*/
+	
+	/*Speed will also be proportional to the size and opacity*/
+	/*More the speed. Less the time in 's' = seconds*/
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+	left: -250px; top: -200px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+	left: 470px; top: -250px;
+	
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
+	opacity: 0.75; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 18s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+	left: -150px; top: -150px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+
+
+
+/* ========================================================================================================================== */
+/*       Sign Up Form             																				   			  */
+/* ========================================================================================================================== */
+#btn {
+    background-color: #194f71;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 60%;
+}
+#btn:hover, #btn:active {
+	transform: scale(1.1);
+	background-color: #346392;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-padding{ padding-left: 60%; }
+.group {
+	position:relative; 
+	margin-bottom:10px; 
+	margin-left: 45%;
+}
+.group input {
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	display:block;
+	width:300px;
+	border:none;
+	background-color: transparent;
+	border-bottom:1px solid #757575;
+}
+.group input:focus { outline:none; }
+
+/* Label */
+.group label {
+	color:#999; 
+	font-size:18px;
+	font-weight:normal;
+	position:absolute;
+	pointer-events:none;
+	left:5px;
+	top:10px;
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.group input:focus ~ label, .group input:valid ~ label        {
+	top:-20px;
+	font-size:14px;
+	color: black;
+}
+
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from { background:#5264AE; }
+  to    { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+    from { background:#5264AE; }
+  to    { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+    from { background:#5264AE; }
+  to    { width:0; background:transparent; }
+}
+
+/*=================================================================================*/
+
+.search-box {
+	margin: 0 0 10px 0;
+	padding: 30px;
+	float: center;
+	border-radius: 5px;
+	background-color: #cce6ff;
+}
+.search-label{
+	margin:2px;
+}
+.InputBox {    
+	padding: 10px;
+	border: 0;
+	border-radius: 4px;
+	margin: 0px 5px 15px;
+	width: 250px;
+}
+.btnSearch{    
+	padding: 10px;
+	background: #8A8A8A;
+	border: 0;
+	border-radius: 4px;
+	margin: 0px 5px;
+	color: #FFF;
+	width: 150px;
+}
+.btnSearch:hover {
+	background-color: #194f71;
+}
+.result-id {
+	color: #AA00FF;
+}
+.result-description{
+	margin: 5px 0px 15px;
+}
+
+/*============================================================*/
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
